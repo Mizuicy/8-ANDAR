@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    margin-left: 10px;
+    opacity: 0.90;
+}
+.texto-logo{
+    margin-left: 25px;
+    color: whitesmoke;
+    font-family: open sans;
+}
+.container-box{
+    background-color: #242635;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+.container-box-lista{
+    display: flex;
+    list-style-type: none;
+}
+.box-logo{
+    display: flex;
+    align-items: center;
+    align-items: left;
+    padding: 10px;
+}
+.lista-li{
+    padding: 30px 30px;
+    font-family: Open Sans;
+}
+.lista-li :hover{
+    color:rgb(231, 201, 144);
+}
+.lista-li:last-child a{
+    background-color: rgb(057, 087, 189);
+    padding: 25px 22px;
+    border-radius: 15px;
+}
+.img-fundo
+{   
+    margin-top: 8%;
+    width: 100%;
+}
+.conteiner-boxx{   
+     margin: 0 30px 30px 0;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.conteiner-boxx-titulo{
+    margin: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+.conteiner-boxx-img-urbanismo{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.img-urb{
+    width: 20%;
+}
+.conteiner-img_p{
+    font-size: 20px;
+}
+
+

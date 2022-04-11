@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image:linear-gradient(#000000, #45454b);
+    width: 100%;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    margin-left: 10px;
+    opacity: 100;
+}
+.texto-logo{
+    margin-left: 25px;
+    color: whitesmoke;
+    font-family: open sans;
+}
+.container-box{
+    background-color: #242635;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+.container-box-lista{
+    display: flex;
+    list-style-type: none;
+}
+.box-logo{
+    display: flex;
+    align-items: center;
+    align-items: left;
+    padding: 10px;
+}   
+.lista-li{
+    padding: 30px 30px;
+    font-family: Open Sans;
+}
+.lista-li :hover{
+    color:rgb(231, 201, 144);
+}
+.lista-li:last-child a{
+    background-color: rgb(057, 087, 189);
+    padding: 25px 22px;
+    border-radius: 15px;
+}
+.img-fundo1{
+    margin-top: -5%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-family:Open sans;
+    color: rgb(231, 201, 144);
+}
+.container-conteudo-tipo-apartamentos-cima{
+    display: flex;
+}
+.container-conteudo-tipo-apartamentos-baixo{
+    display: flex;
+}
+.box-kitnet{
+    height: 480px;
+    width: 420px;
+    background-color: rgb(228, 220, 220);
+    opacity: 0.80;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.img-box-kitnet{
+    border-radius: 30px;
+    width: 420px;
+    height: 260px;
+}
+.preco-kitnet{
+    font-size: 22px;
+    font-family: Open Sans;
+}
+.container-infos-kitnet{    
+    font-family: Open sans;
+    Color: black;
+    margin-left: 40px;
+}
+.container-conteudo-loft{
+    display: flex;
+}
+.img-kitnet{
+    width: 20%;
+    height: 20%;
+    margin: 5px 0 0 35px;
+    border-radius: 20px;
+    max-width: 20%;
+    max-height: 20%;
+}
+.texto-img-kitnet{
+    color: whitesmoke;
+    text-align: justify;
+    margin-top: 25px;
+    width: 24%;
+    height: 24%;
+    max-width: 24%;
+    max-height: 24%;
+    margin-left: 25px;
+    font-size: 16px;
+}
+.img-loft{
+    width: 20%;
+    height: 22%;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 50px;
+    border-radius: 20px;
+    max-width: 20%;
+    max-height: 22%;
+}
+.texto-img-loft{
+    color: whitesmoke;
+    text-align: justify;
+    margin: 25px 0 0 200px;
+    width: 24%;
+    height: 24%;
+    max-width: 24%;
+    max-height: 24%;
+    font-size: 16px;
+}
+.img-studio{
+    width: 24%;
+    height: 24%;
+    max-width: 20%;
+    max-height: 24%;
+    margin: 35px 35px 0px 35px;
+    border-radius: 20px;
+
+}
+.texto-img-studio{
+    color: whitesmoke;
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: -10px;
+    width: 21%;
+    height: 24%;
+    max-width: 24%;
+    max-height: 24%;
+    font-size: 16px;
+}
+.texto-img-duplex{
+    color: whitesmoke;
+    text-align: justify;
+    margin: 60px 35px 0 200px;
+    width: 21%;
+    max-width: 25%;
+    font-size: 16px;
+}
+.img-duplex{
+    width: 20%;
+    height: 24%;
+    max-width: 24%;
+    max-height: 24%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.container-apartamentos{
+    display: flex;
+    justify-content: space-around;
+}
+.botao-enviar{
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin-left: 47%;
+    background-color: rgb(236, 193, 112);
+}
+.box-rodape{
+    height: 220px;
+    width: 100%;
+    background-color: #242635;
+}
+.container-conteudo-rodape{
+    color: white;
+    font-family: Open sans;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-insta{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 35px;
+}
+.insta-devs{
+    display: flex;
+    margin-top: 15px;
+}
+.titulos-contatos{
+    color: white;
+    display: block;
+}
+.logo-email{
+    height: 25px;
+    width: 40px;
+    padding-right: 5px;
+    padding-top: -10px;
+}
+.img-email{
+    display: flex;
+}
+.logo-zap{
+    height: 25px;
+    width: 30px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+.img-chat-online{
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+.container-rodape-navegacao{
+    display: block;
+}
+.conteudo-navegacao{
+    padding-top: 4px;
+}
+.conteudo-navegacao :hover{
+    color:rgb(231, 201, 144);
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login/Cadastro</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="icone.jfif"  href="https://scontent.fcgh12-1.fna.fbcdn.net/v/t39.30808-6/272096821_5036157049784203_3766490899747482931_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=wj1Zz0Bf278AX8Nb0vh&_nc_zt=23&_nc_ht=scontent.fcgh12-1.fna&oh=00_AT9EMDgy0sgzzqPxnatRAel9d8sae8RerrGOm79ZQVOxiA&oe=62539EEC%22%3E"> 
+</head>
+    <body>
+        <header class="container-box">
+            <section class="box-logo">
+                <a href="index.html"><img src="https://play-lh.googleusercontent.com/4femv-L8CLg8ctK1p7v5fL0k3ld_nbPAjE9tSeTvr8FFVx5CGVmK5vs8svQuccSXs8k=s180-rw" alt="" class="logo"></a>
+                <h2 class="texto-logo">Oitavo Andar</h2>
+            </section>
+            <div class="box">
+                <nav class="container-lista">
+                    <ul class="container-box-lista">
+                        <li class="lista-li"><a href="sobre.html">Sobre Nós</a></li>
+                        <li class="lista-li"><a href="#">Contatos</a></li>
+                        <li class="lista-li"><a href="form.html">Área Do Cliente</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <form class="login">
+                <fieldset class="box-linha">
+                <legend class="box-titulo"><b>Formulario do cliente</b></legend>
+
+                    <div class="box input">
+                        <label for="NOME"><b>Nome</b></label>
+                        <input type="text" id="NOME" placeholder="Digite seu nome"class="input-nome" required>
+                    </div>
+                    <div class="box input">
+                        <label for="TELEFONE"><b>Telefone</b></label>
+                        <input type="tel" id="TELEFONE" placeholder="(DD) 9XXXX-XXXX"class="input-nome" required maxlength="11" >
+                    </div>
+                    <div class="box input"> 
+                        <label for="CPF"><b>CPF</b></label>
+                        <input type="text" id="CPF" placeholder="Digite seu CPF" class="input-senha" required maxlength="11">
+                     </div>
+
+                    <div class="box input">
+                        <label for="EMAIL"><b>Email</b></label>
+                        <input type="email" id="EMAIL" placeholder="Digite seu email" class="input-email" class="input-email" required >
+                    </div>
+
+                    <div class="box input"> 
+                                <label for="SENHA"><b>Senha:</b></label>
+                        <input type="password" id="SENHA" placeholder="Digite sua senha" class="input-senha" required>
+                    </div>
+
+                            <label for=""><b>Sexo</b></label>
+                                <br>       
+                            <div class="input-radio">
+                                <br>
+                            <input type="radio" name="TA" >
+                                <label for="">Masculino</label>
+                                <br>
+                            <input type="radio" name="TA" >
+                                <label for="">Femenino</label>
+                                <br>
+                            <input type="radio" name="TA" >
+                                <label for="">Outros</label>
+                                <br>
+                                <br>
+                            </div>
+                    <div class="box input">
+                        <label for=""><b>Ano de nascimento</b></label>
+                        <input type="date" required >
+                                <br>
+                        <input type="submit" > 
+                </fieldset>
+            </form> 
+        </div>
+    </body>
+</html>
